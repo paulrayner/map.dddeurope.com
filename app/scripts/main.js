@@ -1,6 +1,15 @@
 'use strict';
 
 var locations = [
+    /* TEMPLATE FOR NEW ENTRY
+     {
+        title: "",
+        position: new google.maps.LatLng(0,0),
+        info: new google.maps.InfoWindow({
+            content: '<p><strong>TITLE</strong><br/>DESCRIPTION<br/><a href="http://LINK.com">Visit the website</a></p>'
+        })
+     },
+     */
     {
         title: "DDDEU Brussels Conference",
         position: new google.maps.LatLng(50.850340, 4.351710),
