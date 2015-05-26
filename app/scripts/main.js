@@ -104,10 +104,10 @@ var locations = [
 function initialize() {
     var mapOptions = {
         center: {
-            lat: 50,
-            lng: -22
+            lat: 50.850340,
+            lng: 4.351710
         },
-        zoom: 4
+        zoom: 6
     };
 
     var mapCanvas = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
