@@ -188,7 +188,7 @@ p {
   line-height: 1.9em;
 }
 a {
-  color: #003f81;
+  color: #5596e6;
   text-decoration: none;
   font-weight: bold;
 }
@@ -214,6 +214,5 @@ body,
 .about {
   text-align: center;
   background: #fff;
-  opacity: 0.9;
   padding: 0.5em;
 }
