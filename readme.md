@@ -8,3 +8,5 @@
 * A DDD specific event of any kind
 
 ## How to add a user group or conference?
+
+This file https://github.com/WebEngineers/map.dddeurope.com/blob/master/app/scripts/main.js
