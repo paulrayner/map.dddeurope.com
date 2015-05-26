@@ -178,7 +178,7 @@ th {
   padding: 0;
 }
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
 h1 {
   margin: 1.5em 0 0.5em 0;
@@ -187,30 +187,33 @@ p {
   font-size: 18px;
   line-height: 1.9em;
 }
-.navigation {
-  margin: 0;
-  padding: 0;
-}
-.navigation__item,
-.navigation__item--active {
-  display: inline-block;
-  padding: 0.75em 1em;
-  color: #666;
+a {
+  color: #003f81;
   text-decoration: none;
   font-weight: bold;
-}
-.navigation__item:hover,
-.navigation__item--active:hover {
-  color: #111;
-}
-.navigation__item--active {
-  border-top: 5px solid #111;
-  color: #111;
 }
 html,
 body,
 #map-canvas {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
+}
+.wrapper {
+  *zoom: 1;
+}
+.wrapper:before,
+.wrapper:after {
+  content: '';
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+.about {
+  text-align: center;
+  background: #fff;
+  opacity: 0.9;
+  padding: 0.5em;
 }
